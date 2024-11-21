@@ -1,0 +1,315 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(26, 26, 45) !important;
+    font-family: sans-serif !important;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(25, 25, 36);
+    height: 80px;
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+
+.portfolio{
+    font-family: poppins, sans-serif !important;
+    font-weight: 700;
+}
+.portfolio img{
+    height: 40px;
+    width: 100px;
+    margin-right: -35px;
+
+}
+.navbar-links-container {
+    display: flex ;
+}
+
+.navbar-links-container a, .nav-links-container a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+
+     &:hover {
+        color: rgb(133, 76, 230);
+        border-bottom: 2px solid white;
+    } 
+}
+
+.github-btn {
+    padding: 8px 20px !important;
+    border: 1.8px solid rgb(133, 76, 230) !important;
+    color: rgb(133, 76, 230) !important;
+    border-radius: 30px !important;
+
+    &:hover{
+        box-shadow: 2px 2px 10px white;
+    }
+}
+
+
+/* Personal information */
+
+.sectionFirst {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+    background-color: rgb(26, 26, 42) !important;
+    padding: 80px;
+    height: 650px;
+}
+
+.myInfo {
+    width: 30%;
+    padding-top: 28px;
+    font-size: 20px;
+}
+
+.myImg {
+    
+    width:35% ;
+    padding-top: 35px;
+     /* padding-left: 60px; */
+    transform: rotate(10deg);
+
+    /* &:hover {
+        transform: rotate(0deg);
+        
+    } */
+}
+.myImg img{
+    width: 80%;
+    background-color:  #171721 !important; ;
+    border-radius: 50% ;
+}
+
+.eleEffect {
+    color:rgb(133, 76, 230) ;
+}
+.nameColor{
+    color:rgb(195, 183, 216) ;
+}
+.resume-btn{
+    padding:15px 50px !important;
+    border: 1.8px solid rgb(133, 76, 230) !important;
+    color: white !important;
+    border-radius: 30px !important;
+    font-size: 24px !important;
+    background: linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%) !important;
+
+    &:hover{
+        box-shadow: 2px 2px 10px white;
+    }
+}
+
+/* Skills */
+.sectionsecond{
+    background-color:  rgb(26, 26, 48);
+}
+#skills-title,#exp-title, #project-title, #edu-title{
+    color: white;
+    text-align: center;
+    font-family: poppins, sans-serif !important;
+}
+.skills-container  {
+    width: 90%;
+    margin: 0px 78px;
+    padding: 0px 118px !important;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card {
+    width: 500px;
+    margin: 25px 0px!important ;
+    background-color: #171721 !important;
+    color: rgba(255, 255, 255, 0.874) !important ;
+    border: 0.1px solid rgb(133, 76, 230)!important ;
+    box-shadow:  rgba(23, 92, 230, 0.20) 0px 4px 24px;
+    border-radius: 16px !important;
+}
+.card .card-body .card-title{
+    font-size: 28px;
+    text-align: center;
+}
+.skills-btns-container {
+    display: flex;
+    width: 40s0px;
+    margin: 0px 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.skills-btn{
+  margin-bottom: 15px;
+}
+.skills-btn img{
+    height: 24px;
+    width: 24px;
+}
+.card .card-body .skills-btn {
+    color: rgba(255, 255, 255, 0.733);
+    border: 1.8px solid rgb(133, 76, 230) !important;
+}
+
+/* Experiences */
+
+.exp-conatiner, .edu-container{
+    margin: -35px 118px;
+    display: flex;
+    justify-content: center !important;
+}
+.outer-timeline-container{
+    margin: 27px 16px;
+}
+
+.verticle-line{
+    height: 1418px;
+    margin:-2px 9px ;
+    width: 2px;
+    border: 2px solid white;
+}
+.dot1, .dot2, .dot3{
+    display: inline-block;
+    height: 20px !important;
+    width: 20px !important;
+    border-radius:100%;
+    border: 2px solid white;
+}
+.dot1{
+    background-color:#212529 ;
+    margin: -1px -11px;
+}
+.dot2{
+    background-color:#212529 ;
+    margin: -441px -11px;
+}
+.dot3{
+    background-color:#212529 ;
+    margin: -893px -11px;
+}
+.experiences .card{
+    width: 100%;
+}
+.imgAndContent{
+    display: flex;
+}
+.gssoc-img, .dyp-logo, .smm-logo{
+    height:126px;
+    width:112px;
+}
+.imgAndContent-desc .exp, .col{
+    font-family: poppins;
+    font-size: 1.5rem;
+}
+.gssoc-2024, .course{
+    color: rgba(255, 255, 255, 0.447) !important;
+    font-size: 20px !important;
+}
+.exp-timeline, .course-timeline{
+    color: rgba(255, 255, 255, 0.269) !important;
+}
+.certificate img{
+    height:200px;
+    width:200px;
+}
+
+.card:hover{
+    box-shadow: none !important;
+}
+
+/* Styling Projects section*/
+
+#project-head{
+    color: rgba(234, 230, 230, 0.521);
+    text-align: center;
+    font-size: 20px;
+}
+.projects-container{
+    display: flex;
+    justify-content:center;
+}
+.project-img img{
+    height: 250px ;
+    width: 90% ;
+    border-radius: 20px;
+    margin: 10px 25px;
+}
+.tech-stack{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.skills-btn{
+    border: 1.8px solid rgb(133, 76, 230) !important;
+    color:white !important;
+    border-radius: 30px !important;
+}
+#project-timeline{
+    color: rgba(234, 230, 230, 0.521);
+}
+
+/* Sducation section */
+.education .card{
+    width: 100%;
+}
+.imgAndContent .smm-logo{
+    height: 120px;
+    width: 102px;
+    padding-right: 10px;
+}
+
+/* footer */
+
+footer {
+    /* height: 400px; */
+    margin-top: 80px !important;
+    background-color: rgb(31, 31, 52) ;
+}
+
+
+#myName{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    padding-top: 70px !important;
+}
+
+.nav-links-container{
+    padding:30px 466px ;
+}
+.nav-links-container a{
+    color: rgba(255, 255, 255, 0.557);
+    text-decoration: none;
+    width: 80%;
+    font-size:20px;
+ 
+}
+#copy-rights{
+    color: rgba(255, 255, 255, 0.347);
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+}
+.contacts a {
+    margin: 30px;
+}
+.contacts a img{
+    height: 40px;
+    width: 40px;
+}
